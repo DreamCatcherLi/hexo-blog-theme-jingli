@@ -234,6 +234,6 @@ sitemap:
 deploy:
   type: git
   repository: https://github.com/DreamCatcherLi/hexo-blog-theme-jingli
-  branch: master
+  branch: hexo-public
   message: Update CNAME
 
