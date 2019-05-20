@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[随便写点东西]]></title>
+    <url>%2Farticle%2F%E9%9A%8F%E4%BE%BF%E5%86%99%E7%82%B9%E4%B8%9C%E8%A5%BF%2F</url>
+    <content type="text"><![CDATA[第一篇博客 这是引用地方 http://baidu.com 第一点 第二点 第三点 这是有序列表1 这是有序列表2 这是有序列表3 2019/3/20 17:39:13]]></content>
+      <tags>
+        <tag>others</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>%2Farticle%2F%E9%9A%8F%E4%BE%BF%E8%AF%95%E8%AF%95%2F</url>
+    <content type="text"><![CDATA[第一篇博客 这是引用地方 http://baidu.com 第一点 第二点 第三点 这是有序列表1 这是有序列表2 这是有序列表3 2019/3/20 17:39:13]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[NewBlog]]></title>
+    <url>%2Farticle%2FNewBlog%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2Farticle%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
