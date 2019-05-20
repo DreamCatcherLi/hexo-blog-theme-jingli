@@ -251,6 +251,6 @@ sitemap:
 deploy:
   type: git
   repository: https://github.com/DreamCatcherLi/hexo-blog-theme-jingli
-  branch: hexo-public
+  branch: devlope
   message: 
 
