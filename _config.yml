@@ -13,7 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://jingli.site.com
+# url: http://jingli.site.com
+url: https://www.jingli.site
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :category/:title/
@@ -21,6 +22,18 @@ permalink_defaults:
   lang: en
 
 #Custom Setting Start
+
+# website favicon
+favicon: /img/favicon/favicon2.ico
+#  small: /img/favicon/favicon1.ico
+#  medium: /img/favicon/favicon2.ico
+
+# search settings
+search: 
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # Site settings
 SEOTitle: 敬力 | Blog
@@ -41,7 +54,7 @@ zhihu_username:     jing-li-31
 github_username:    DreamCatcherLi
 # twitter_username:   Demonbane_x
 # facebook_username:  xxx
-linkedin_username: 敬力
+linkedin_username: 力-敬-a59ab3138
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
@@ -74,7 +87,7 @@ widgets:
 - recent-posts
 - friends-blog
 - archive
-#- category
+- category
 
 # widget behavior
 ## Archive
@@ -97,6 +110,10 @@ friends: [
     {
         title: "GitHub 敬力",
         href: "https://github.com/DreamCatcherLi"
+    },
+    {   
+        title: "阿里云栖社区 敬力",
+        href: "https://yq.aliyun.com/u/jingli"
     }
 ]
 
@@ -212,16 +229,16 @@ data-fixed: true
 
 # Reward
 reward: true
-reward_comment: 赞赏一下
-wechatpay: https://github.com/DreamCatcherLi/hexo-blog-theme-jingli
-alipay: /img/avatar/2017took.jpg
+reward_comment: 我知道是不会有人点的，但万一有人想不开呢？
+wechatpay: /img/qrcode/wechat_collect_qrcode.jpg
+alipay: /img/qrcode/alipay_collect_qrcode.jpg
 
 # Share
 # Reference: https://github.com/overtrue/share.js
 share: true
 
 ## Themes: https://hexo.io/themes/
-theme: jingli
+theme: next
 
 #sitemap
 sitemap:
@@ -235,5 +252,5 @@ deploy:
   type: git
   repository: https://github.com/DreamCatcherLi/hexo-blog-theme-jingli
   branch: hexo-public
-  message: Update CNAME
+  message: 
 

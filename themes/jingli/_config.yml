@@ -5,3 +5,7 @@
 # https://github.com/chriskempson/tomorrow-theme
 # night yilia - https://github.com/litten/hexo-theme-yilia
 highlight_theme: night eighties
+
+#local search
+local_search:
+  enable: true
