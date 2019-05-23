@@ -88,3 +88,12 @@ deploy:
   branch: hexo-public
   message: 设置部署分支为hexo-public
 
+
+
+# Custom Settings Start
+
+#头像
+avatar: /images/avatar/2017took.jpg
+
+
+# Custom Settings End
