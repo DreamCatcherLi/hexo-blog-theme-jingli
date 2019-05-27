@@ -95,5 +95,12 @@ deploy:
 #头像
 avatar: /images/avatar/2017took.jpg
 
+#search config
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
 
 # Custom Settings End
