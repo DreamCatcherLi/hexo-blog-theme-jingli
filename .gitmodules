@@ -1,0 +1,3 @@
+[submodule "themes/next-reloaded"]
+	path = themes/next-reloaded
+	url = ../../theme-next/hexo-theme-next.git
