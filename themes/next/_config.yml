@@ -465,15 +465,9 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: <script>
-  var _hmt = _hmt || [];
-  (function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?ee417b112fcf2d1dcb279bb747c4e3ac";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-  })();
-  </script>
+#google_analytics:
+#Baidu Analytics ID
+baidu_analytics: ee417b112fcf2d1dcb279bb747c4e3ac
 
 
 # Bing Webmaster tools verification setting
