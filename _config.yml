@@ -102,5 +102,11 @@ search:
   format: html
   limit: 10000
 
+leancloud_counter_security:
+  enable_sync: true
+  app_id: iwPW1Asri5zrTzbLwSKCFwaz-gzGzoHsz
+  app_key: 5hMNtgt6RSs2QPNFpMRMbCag
+  username:
+  password:
 
 # Custom Settings End
