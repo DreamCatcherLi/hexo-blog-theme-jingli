@@ -17,3 +17,4 @@
 1.升级了next主题至7.1.1，并将原来主题配置文件的相应修改进行了迁移
 2.新增一个github仓库用来部署hexo至github:
 https://github.com/DreamCatcherLi/DreamCatcherLi.github.io.git
+新增一个访问地址:https://dreamcatcherli.github.io
