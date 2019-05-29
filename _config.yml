@@ -83,11 +83,12 @@ theme: next-reload
 # repository: https://github.com/huweihuang/xxxxxxx.github.io.git
 # branch: master
 deploy:
-  type: git
-  repository: https://github.com/DreamCatcherLi/DreamCatcherLi.github.io.git
-  branch: master
-  message: 
-
+  - type: git
+    repository: https://github.com/DreamCatcherLi/DreamCatcherLi.github.io.git
+    branch: master
+    message:
+  # other deployer
+  - type: leancloud_counter_security_sync
 
 
 # Custom Settings Start
@@ -106,7 +107,7 @@ leancloud_counter_security:
   enable_sync: true
   app_id: iwPW1Asri5zrTzbLwSKCFwaz-gzGzoHsz
   app_key: 5hMNtgt6RSs2QPNFpMRMbCag
-  username:
-  password:
+  username: #如留空则将在部署时询问-jingli
+  password: #建议留空以保证安全性，如留空则将在部署时询问-jl_.....
 
 # Custom Settings End
