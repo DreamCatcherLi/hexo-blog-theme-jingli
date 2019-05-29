@@ -84,9 +84,9 @@ theme: next-reload
 # branch: master
 deploy:
   type: git
-  repository: https://github.com/DreamCatcherLi/hexo-blog-theme-jingli
-  branch: hexo-public
-  message: 设置部署分支为hexo-public
+  repository: https://github.com/DreamCatcherLi/DreamCatcherLi.github.io.git
+  branch: master
+  message: 
 
 
 
