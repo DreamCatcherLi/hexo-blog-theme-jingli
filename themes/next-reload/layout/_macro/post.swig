@@ -257,16 +257,6 @@
             #}</div>
           {% endif %}
 
-          {% if theme.post_wordcount.wordcount or theme.post_wordcount.min2read %}
-            <span class="post-letters-count">
-              &nbsp; | &nbsp;
-              <span>{{ wordcount(post.content) }} 字</span>
-              &nbsp; | &nbsp;
-              <span>{{ min2read(post.content) }} min</span>
-            </span>
-          {% endif %}
-
-
         </div>
       </header>
     {% endif %}
@@ -468,9 +458,5 @@
   {### END POST BLOCK ###}
   {######################}
   </article>
-  <div class="theme-info">
-      <div class="powered-by"></div>
-      <span class="post-count">本站共{{ totalcount(site) }}字</span>
-  </div>
 
 {% endmacro %}
