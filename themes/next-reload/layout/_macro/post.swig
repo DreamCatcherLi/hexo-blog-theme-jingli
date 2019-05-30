@@ -257,7 +257,7 @@
             #}</div>
           {% endif %}
 
-          {% if theme.post_wordcount %}
+          {% if theme.post_wordcount.wordcount or theme.post_wordcount.min2read %}
             <span class="post-letters-count">
               &nbsp; | &nbsp;
               <span>{{ wordcount(post.content) }} 字</span>
