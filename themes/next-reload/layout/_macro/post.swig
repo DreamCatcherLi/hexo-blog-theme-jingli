@@ -257,33 +257,16 @@
             #}</div>
           {% endif %}
 
-          {% if theme.post_wordcount.wordcount or theme.post_wordcount.min2read %}
-                   <div class="post-wordcount">
-                     {% if theme.post_wordcount.wordcount %}
-                       <span class="post-meta-item-icon">
-                         <i class="fa fa-edit"></i>
-                       </span>
-                       {% if theme.post_wordcount.item_text %}
-                         <span class="post-meta-item-text">{{ __('post.wordcount') }}</span>
-                       {% endif %}
-                         <span title="{{ __('post.wordcount') }}" }}">{{ wordcount(post.content) }} 字 </span>
-                     {% endif %}
-                     {% if theme.post_wordcount.wordcount and theme.post_wordcount.min2read %}
-                       <span class="post-meta-divider">|</span>
-                     {% endif %}
-                     {% if theme.post_wordcount.min2read %}
-                       <span class="post-meta-item-icon">
-                         <i class="fa fa-clock-o"></i>
-                       </span>
-                         {% if theme.post_wordcount.item_text %}
-                           <span class="post-meta-item-text">{{ __('post.min2read') }}</span>
-                         {% endif %}
-                           <span title="{{ __('post.min2read') }}" }}">
-                             {{ min2read(post.content) }} 分钟 </span>
-                     {% endif %}
-                   </div>
-                 {% endif %}
-                 
+          {% if theme.post_wordcount %}
+            <span class="post-letters-count">
+              &nbsp; | &nbsp;
+              <span>{{ wordcount(post.content) }} 字</span>
+              &nbsp; | &nbsp;
+              <span>{{ min2read(post.content) }} min</span>
+            </span>
+          {% endif %}
+
+
         </div>
       </header>
     {% endif %}
