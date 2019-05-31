@@ -201,8 +201,8 @@ social:
   GitHub: https://github.com/DreamCatcherLi || github
   E-Mail: mailto:jingnumber@gmail.com || envelope
   CSDN Blog: https://blog.csdn.net/jingnumber
-  阿里云栖社区: https://yq.aliyun.com/u/jingli
-  知乎: https://www.zhihu.com/people/jing-li-31/activities
+  aliyun: https://yq.aliyun.com/u/jingli
+  zhihu: https://www.zhihu.com/people/jing-li-31/activities
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -218,7 +218,7 @@ social_icons:
   icons_only: false
   transition: false
   GitHub: github
-  知乎: zhihu
+  zhihu: zhihu
 
 # Blog rolls
 links_icon: link
