@@ -49,7 +49,7 @@ rss:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2018
 
   # Icon between year and copyright info.
   icon:
@@ -57,7 +57,7 @@ footer:
     # `heart` is recommended with animation in red (#ff0000).
     name: user
     # If you want to animate the icon, set it to true.
-    animated: false
+    animated: true
     # Change the color of icon, using Hex Code.
     color: "#808080"
 
@@ -84,7 +84,7 @@ footer:
 
   # Any custom text can be defined here.
   #custom_text: Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" target="_blank">Coding Pages</a>
-  custom_text: 本站由jingli基于ECS+Nginx+Nodejs+Hexo所搭建,主题采用Next,有问题可咨询jingnumber@gmail.com
+#  custom_text: 本站由jingli基于ECS+Nginx+Nodejs+Hexo所搭建,主题采用Next,有问题可咨询jingnumber@gmail.com
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
