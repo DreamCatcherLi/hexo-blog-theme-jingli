@@ -218,6 +218,7 @@ social_icons:
   icons_only: false
   transition: false
   GitHub: github
+  知乎: zhihu
 
 # Blog rolls
 links_icon: link
