@@ -93,9 +93,6 @@ deploy:
 
 # Custom Settings Start
 
-#头像
-avatar: /images/avatar/2017took.jpg
-
 #search config
 search:
   path: search.xml
@@ -103,6 +100,7 @@ search:
   format: html
   limit: 10000
 
+#leancloud阅读次数安全设置
 leancloud_counter_security:
   enable_sync: true
   app_id: iwPW1Asri5zrTzbLwSKCFwaz-gzGzoHsz
@@ -110,6 +108,7 @@ leancloud_counter_security:
   username: #如留空则将在部署时询问-jingli
   password: #建议留空以保证安全性，如留空则将在部署时询问-jl_.....
 
+#网站字数统计
 symbols_count_time:
   symbols: true # 文章字数
   time: true # 阅读时长
