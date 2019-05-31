@@ -80,7 +80,7 @@ footer:
   # http://www.beian.miit.gov.cn
   beian:
     enable: true
-    icp:
+    icp: 辽ICP备19003731号-1
 
   # Any custom text can be defined here.
   #custom_text: Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" target="_blank">Coding Pages</a>
@@ -830,6 +830,7 @@ busuanzi_count:
   total_visitors_icon: user #阅读总人数的图标
   total_views: true #总阅读次数 pv数
   total_views_icon: eye #阅读总次数的图标
+  # 文章的阅读次数不用不蒜子,不蒜子首页看不到阅读数，要进入文章才能看到
   post_views: false #开启内容阅读次数
   post_views_icon: eye #内容页阅读数的图标
 
