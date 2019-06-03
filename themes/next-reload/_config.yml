@@ -1222,3 +1222,15 @@ vendors:
 css: css
 js: js
 images: images
+
+
+
+# Custom Settings Start
+
+# a trick on website title
+title_trick:
+  enable: true
+  leave: "我藏好了哦~"
+  enter: "被你发现啦~"
+
+# Custom Settings End
