@@ -57,8 +57,9 @@
   <div class="footer-custom">{#
   #}{{ theme.footer.custom_text }}{#
 #}
+</div>
+{% endif %}
+
 {% if theme.footer.beian.enable %}{#
 #}  {{ next_url('http://www.beian.miit.gov.cn', theme.footer.beian.icp + ' ') }}{#
 #}{% endif %}
-</div>
-{% endif %}
