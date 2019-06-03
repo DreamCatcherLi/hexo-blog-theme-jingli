@@ -17,7 +17,7 @@
       <span class="post-meta-item-text">{{ __('symbols_count_time.count_total') + __('symbol.colon') }}</span>
     {% endif %}
     <span title="{{ __('symbols_count_time.count_total') }}">{#
-    #}{{ __('symbols_count_time.count_total') }} {{ symbolsCountTotal(site) }}{#
+    #}{{ symbolsCountTotal(site) }}{#
   #}</span>
   {% endif %}
 
@@ -30,7 +30,7 @@
       <span class="post-meta-item-text">{{ __('symbols_count_time.time_total')}} &asymp;</span>
     {% endif %}
     <span title="{{ __('symbols_count_time.time_total') }}">{#
-    #}{{ __('symbols_count_time.time_total') }} {{ symbolsTimeTotal(site, theme.symbols_count_time.awl, theme.symbols_count_time.wpm, __('symbols_count_time.time_minutes')) }}{#
+    #}{{ symbolsTimeTotal(site, theme.symbols_count_time.awl, theme.symbols_count_time.wpm, __('symbols_count_time.time_minutes')) }}{#
   #}</span>
   {% endif %}
 </div>
