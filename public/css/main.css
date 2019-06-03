@@ -1808,7 +1808,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #87ff85;
+  background: #dbff1f;
 }
 .feed-link,
 .chat {
@@ -2526,4 +2526,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+}
+.busuanzi-value {
+  color: #1890ff;
 }
