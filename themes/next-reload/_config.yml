@@ -342,11 +342,11 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
-  separated_meta: true # 是否换行显示 字数统计 及 阅读时长
+  separated_meta: false # 是否换行显示 字数统计 及 阅读时长
   item_text_post: true # 文章 字数统计 阅读时长 使用图标 还是 文本表示
-  item_text_total: false # 博客底部统计 字数统计 阅读时长 使用图标 还是 文本表示
-  awl: 4
-  wpm: 275
+  item_text_total: true # 博客底部统计 字数统计 阅读时长 使用图标 还是 文本表示
+  awl: 4 # Average Word Length：平均字符长度
+  wpm: 275 # Words Per Minute：阅读速度
 
 codeblock:
   # Manual define the border radius in codeblock, leave it blank for the default value: 1
