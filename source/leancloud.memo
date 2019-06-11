@@ -5,4 +5,5 @@
 {"title":"我的第一篇文章","url":"/uncategorized/我的第一篇文章/"},
 {"title":"随便写点东西","url":"/uncategorized/随便写点东西/"},
 {"title":"","url":"/uncategorized/随便试试/"},
+{"title":"Java8 - 更优雅的字符串连接(join)收集器 Collectors.joining","url":"/后端/Java8 - 更优雅的字符串连接(join)收集器 Collectors.joining/"},
 ]
